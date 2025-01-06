@@ -200,3 +200,23 @@ Things may not work well.
 [06Jan2025 21:36:56.241] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1326516b-4158-3732-b37a-e50d60de33ff
 [06Jan2025 21:36:57.258] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1326516b-4158-3732-b37a-e50d60de33ff
 [06Jan2025 21:36:57.261] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Wimiloz539 (1326516b-4158-3732-b37a-e50d60de33ff) successfully connected to voice chat
+[06Jan2025 21:41:57.501] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Wimiloz539 lost connection: Disconnected
+[06Jan2025 21:41:57.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wimiloz539 left the game
+[06Jan2025 21:41:57.506] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Wimiloz539
+[06Jan2025 21:45:09.046] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Wimiloz539[/127.94.151.112:50447] logged in with entity id 1117 at (425.08658935079666, 21.0, 501.88655731322206)
+[06Jan2025 21:45:09.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wimiloz539 joined the game
+[06Jan2025 21:45:10.648] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Wimiloz539 (18)
+[06Jan2025 21:45:10.649] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Wimiloz539
+[06Jan2025 21:45:20.634] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1326516b-4158-3732-b37a-e50d60de33ff
+[06Jan2025 21:45:21.669] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1326516b-4158-3732-b37a-e50d60de33ff
+[06Jan2025 21:45:21.670] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Wimiloz539 (1326516b-4158-3732-b37a-e50d60de33ff) successfully connected to voice chat
+[06Jan2025 21:45:40.251] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Wimiloz539 lost connection: Disconnected
+[06Jan2025 21:45:40.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wimiloz539 left the game
+[06Jan2025 21:45:40.252] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Wimiloz539
+[06Jan2025 21:49:51.216] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Wimiloz539[/127.94.151.112:44861] logged in with entity id 1358 at (422.5798864118381, 22.0, 501.5902916115653)
+[06Jan2025 21:49:51.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wimiloz539 joined the game
+[06Jan2025 21:49:52.864] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Wimiloz539 (18)
+[06Jan2025 21:49:52.866] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Wimiloz539
+[06Jan2025 21:50:02.478] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1326516b-4158-3732-b37a-e50d60de33ff
+[06Jan2025 21:50:03.485] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1326516b-4158-3732-b37a-e50d60de33ff
+[06Jan2025 21:50:03.486] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Wimiloz539 (1326516b-4158-3732-b37a-e50d60de33ff) successfully connected to voice chat
