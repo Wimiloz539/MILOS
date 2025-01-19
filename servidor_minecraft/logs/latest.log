@@ -257,3 +257,29 @@ Caused by: java.nio.channels.UnresolvedAddressException
 [19Jan2025 17:25:14.696] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Wimiloz539 moved too quickly! 0.4343839149033215,-10.806526110008988,1.7961966810929653
 [19Jan2025 17:25:32.502] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Wimiloz539 moved too quickly! -0.624808350967271,-12.142209611384104,1.7375267790374664
 [19Jan2025 17:25:41.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wimiloz539 was slain by Zombie
+[19Jan2025 17:28:11.444] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 1326516b-4158-3732-b37a-e50d60de33ff timed out
+[19Jan2025 17:28:11.444] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player Wimiloz539
+[19Jan2025 17:28:11.445] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to Wimiloz539
+[19Jan2025 17:28:24.521] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Wimiloz539 lost connection: Timed out
+[19Jan2025 17:28:24.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wimiloz539 left the game
+[19Jan2025 17:28:24.522] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Wimiloz539
+[19Jan2025 17:29:06.424] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Wimiloz539[/127.94.151.112:34833] logged in with entity id 4579 at (33.69999998807907, 73.0, 55.7434544080137)
+[19Jan2025 17:29:06.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wimiloz539 joined the game
+[19Jan2025 17:29:06.805] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Wimiloz539 (18)
+[19Jan2025 17:29:06.805] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Wimiloz539
+[19Jan2025 17:29:14.500] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1326516b-4158-3732-b37a-e50d60de33ff
+[19Jan2025 17:29:15.509] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1326516b-4158-3732-b37a-e50d60de33ff
+[19Jan2025 17:29:15.510] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Wimiloz539 (1326516b-4158-3732-b37a-e50d60de33ff) successfully connected to voice chat
+[19Jan2025 17:29:28.678] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Wimiloz539 moved too quickly! 9.454340157666664,0.8322033533667508,3.6369328366854035
+[19Jan2025 17:29:41.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Giova_rt12> desmuteate
+[19Jan2025 17:29:49.178] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=150, y=72, z=178} BlockPos{x=151, y=70, z=179}
+[19Jan2025 17:29:49.179] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=151, y=72, z=178} BlockPos{x=151, y=70, z=180}
+[19Jan2025 17:29:49.182] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Wimiloz539 moved too quickly! 3.492344297654739,-1.8391945580851399,9.2433940170001
+[19Jan2025 17:29:57.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Wimiloz539> me voy al infection
+[19Jan2025 17:29:57.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Giova_rt12> desmuteate
+[19Jan2025 17:30:03.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Giova_rt12> por??
+[19Jan2025 17:30:04.323] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Wimiloz539 moved too quickly! 7.134461418889174,-0.41999998688697815,7.078692727406121
+[19Jan2025 17:30:14.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Wimiloz539> ya no tengo ganas de jugar
+[19Jan2025 17:30:16.269] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Wimiloz539 lost connection: Disconnected
+[19Jan2025 17:30:16.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wimiloz539 left the game
+[19Jan2025 17:30:16.269] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Wimiloz539
