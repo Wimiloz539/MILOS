@@ -1,222 +1,223 @@
-[06Jan2025 21:30:58.510] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[06Jan2025 21:30:58.516] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[06Jan2025 21:30:59.088] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[06Jan2025 21:30:59.140] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MILOS/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[06Jan2025 21:30:59.388] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MILOS/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[06Jan2025 21:30:59.390] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MILOS/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[06Jan2025 21:30:59.391] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MILOS/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[06Jan2025 21:30:59.392] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MILOS/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[06Jan2025 21:30:59.585] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
-[06Jan2025 21:31:01.424] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[06Jan2025 21:31:01.456] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[06Jan2025 21:31:01.755] [main/WARN] [mixin/]: Reference map 'tfmg.refmap.json' for tfmg.mixins.json could not be read. If this is a development environment you can ignore this message
-[06Jan2025 21:31:01.829] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.20.0+mc1.20.1: 86 options available, 0 override(s) found
-[06Jan2025 21:31:01.830] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[06Jan2025 21:31:01.845] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[06Jan2025 21:31:03.286] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[06Jan2025 21:31:03.954] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (7.935 s after launch)
-[06Jan2025 21:31:04.128] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[06Jan2025 21:31:04.129] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[06Jan2025 21:31:05.340] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1371 milliseconds
-[06Jan2025 21:31:08.785] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[06Jan2025 21:31:08.790] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[06Jan2025 21:31:08.792] [modloading-worker-0/INFO] [Railways/]: Steam 'n' Rails v1.6.7 initializing! Commit hash: 0a7cc000d6c7a1419919bc3e315bc62932287eb9 on Create version: 0.5.1j on platform: Forge
-[06Jan2025 21:31:08.968] [modloading-worker-0/INFO] [me.wesley1808.servercore.common.ServerCore/]: [ServerCore] Loaded V1.5.2+1.20.1!
-[06Jan2025 21:31:09.801] [modloading-worker-0/INFO] [Railways/]: Registered bogey styles from railways
-[06Jan2025 21:31:10.057] [modloading-worker-0/INFO] [Railways/]: Registering data fixers
-[06Jan2025 21:31:10.183] [modloading-worker-0/INFO] [ModernFix/]: Bypassed Mojang DFU
-[06Jan2025 21:31:10.184] [modloading-worker-0/INFO] [ModernFix/]: Instantiating Mojang DFU
-[06Jan2025 21:31:10.725] [modloading-worker-0/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 0 Datafixer optimizations took 1 milliseconds
-[06Jan2025 21:31:10.734] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Hex Casting
-[06Jan2025 21:31:10.736] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Oh The Biomes You'll Go
-[06Jan2025 21:31:10.737] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Blue Skies
-[06Jan2025 21:31:10.738] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Twilight Forest
-[06Jan2025 21:31:10.739] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Biomes O' Plenty
-[06Jan2025 21:31:10.739] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Nature's Spirit
-[06Jan2025 21:31:10.740] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Dreams and Desires
-[06Jan2025 21:31:10.741] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Quark
-[06Jan2025 21:31:10.741] [modloading-worker-0/INFO] [Railways/]: Registering tracks for TerraFirmaCraft
-[06Jan2025 21:31:13.250] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.item.PrimedTnt from class com.drmangotea.tfmg.items.weapons.explosives.napalm.NapalmBombEntity
-[06Jan2025 21:31:13.758] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
-[06Jan2025 21:31:13.765] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
-[06Jan2025 21:31:13.792] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
-[06Jan2025 21:31:13.796] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
-[06Jan2025 21:31:13.796] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
-[06Jan2025 21:31:13.797] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
-[06Jan2025 21:31:14.429] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.27 Target: null
-[06Jan2025 21:31:14.430] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[06Jan2025 21:31:14.542] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.22
-[06Jan2025 21:31:14.542] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
-[06Jan2025 21:31:14.634] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
-[06Jan2025 21:31:14.635] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_structures] Starting version check at https://api.modrinth.comauth/init?url=https://modrinth.com/mod/create-structures/version/e9v4MIpX/updates/IAnP4np7/forge_updates.json
-[06Jan2025 21:31:14.752] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[19Jan2025 17:07:27.353] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[19Jan2025 17:07:27.357] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[19Jan2025 17:07:27.932] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[19Jan2025 17:07:27.987] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MILOS/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[19Jan2025 17:07:28.203] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MILOS/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[19Jan2025 17:07:28.205] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MILOS/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[19Jan2025 17:07:28.206] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MILOS/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[19Jan2025 17:07:28.207] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MILOS/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[19Jan2025 17:07:28.449] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
+[19Jan2025 17:07:30.235] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[19Jan2025 17:07:30.271] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[19Jan2025 17:07:30.595] [main/WARN] [mixin/]: Reference map 'tfmg.refmap.json' for tfmg.mixins.json could not be read. If this is a development environment you can ignore this message
+[19Jan2025 17:07:30.676] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.20.0+mc1.20.1: 86 options available, 0 override(s) found
+[19Jan2025 17:07:30.677] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[19Jan2025 17:07:30.692] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[19Jan2025 17:07:32.454] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[19Jan2025 17:07:33.048] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (8.043 s after launch)
+[19Jan2025 17:07:33.173] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[19Jan2025 17:07:33.174] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[19Jan2025 17:07:34.330] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1278 milliseconds
+[19Jan2025 17:07:37.355] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[19Jan2025 17:07:37.355] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[19Jan2025 17:07:37.376] [modloading-worker-0/INFO] [Railways/]: Steam 'n' Rails v1.6.7 initializing! Commit hash: 0a7cc000d6c7a1419919bc3e315bc62932287eb9 on Create version: 0.5.1j on platform: Forge
+[19Jan2025 17:07:37.493] [modloading-worker-0/INFO] [me.wesley1808.servercore.common.ServerCore/]: [ServerCore] Loaded V1.5.2+1.20.1!
+[19Jan2025 17:07:38.342] [modloading-worker-0/INFO] [Railways/]: Registered bogey styles from railways
+[19Jan2025 17:07:38.636] [modloading-worker-0/INFO] [Railways/]: Registering data fixers
+[19Jan2025 17:07:38.712] [modloading-worker-0/INFO] [ModernFix/]: Bypassed Mojang DFU
+[19Jan2025 17:07:38.713] [modloading-worker-0/INFO] [ModernFix/]: Instantiating Mojang DFU
+[19Jan2025 17:07:39.438] [modloading-worker-0/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 0 Datafixer optimizations took 0 milliseconds
+[19Jan2025 17:07:39.446] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Hex Casting
+[19Jan2025 17:07:39.447] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Oh The Biomes You'll Go
+[19Jan2025 17:07:39.448] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Blue Skies
+[19Jan2025 17:07:39.448] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Twilight Forest
+[19Jan2025 17:07:39.449] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Biomes O' Plenty
+[19Jan2025 17:07:39.450] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Nature's Spirit
+[19Jan2025 17:07:39.451] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Dreams and Desires
+[19Jan2025 17:07:39.451] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Quark
+[19Jan2025 17:07:39.452] [modloading-worker-0/INFO] [Railways/]: Registering tracks for TerraFirmaCraft
+[19Jan2025 17:07:41.797] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.item.PrimedTnt from class com.drmangotea.tfmg.items.weapons.explosives.napalm.NapalmBombEntity
+[19Jan2025 17:07:42.302] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[19Jan2025 17:07:42.312] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[19Jan2025 17:07:42.336] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[19Jan2025 17:07:42.339] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[19Jan2025 17:07:42.339] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[19Jan2025 17:07:42.339] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[19Jan2025 17:07:42.927] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.27 Target: null
+[19Jan2025 17:07:42.928] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[19Jan2025 17:07:43.180] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.22
+[19Jan2025 17:07:43.180] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[19Jan2025 17:07:43.322] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
+[19Jan2025 17:07:43.322] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_structures] Starting version check at https://api.modrinth.comauth/init?url=https://modrinth.com/mod/create-structures/version/e9v4MIpX/updates/IAnP4np7/forge_updates.json
+[19Jan2025 17:07:43.374] [main/WARN] [net.minecraftforge.server.loading.ServerModLoader/LOADING]: Mods loaded with 2 warnings
+[19Jan2025 17:07:43.379] [main/WARN] [net.minecraftforge.server.loading.ServerModLoader/LOADING]: modernfix.no_ferritecore
+[19Jan2025 17:07:43.380] [main/WARN] [net.minecraftforge.server.loading.ServerModLoader/LOADING]: modernfix.perf_mod_warning
+[19Jan2025 17:07:43.409] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19Jan2025 17:07:43.425] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.net.ConnectException: null
-	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:951) ~[java.net.http:?]
-	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:574) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:?]
 	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:139) ~[fmlcore-1.20.1-47.3.7.jar%23118!/:?]
 	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:177) ~[fmlcore-1.20.1-47.3.7.jar%23118!/:?]
 	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
 	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23118!/:?]
 Caused by: java.net.ConnectException
-	at jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1041) ~[java.net.http:?]
-	at jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227) ~[java.net.http:?]
+	at jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1083) ~[java.net.http:?]
+	at jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198) ~[java.net.http:?]
 	at jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
-	at jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:527) ~[java.net.http:?]
-	at jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:138) ~[java.net.http:?]
-	at jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:94) ~[java.net.http:?]
-	at jdk.internal.net.http.Exchange.establishExchange(Exchange.java:391) ~[java.net.http:?]
-	at jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:584) ~[java.net.http:?]
-	at jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:428) ~[java.net.http:?]
-	at jdk.internal.net.http.Exchange.responseAsync(Exchange.java:420) ~[java.net.http:?]
-	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413) ~[java.net.http:?]
-	at jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454) ~[java.net.http:?]
+	at jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:443) ~[java.net.http:?]
+	at jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:131) ~[java.net.http:?]
+	at jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:93) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.establishExchange(Exchange.java:349) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:542) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:386) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.responseAsync(Exchange.java:378) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:408) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:449) ~[java.net.http:?]
 	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
 	at java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?]
-	at java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372) ~[?:?]
-	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444) ~[java.net.http:?]
-	at jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2340) ~[?:?]
+	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:439) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:341) ~[java.net.http:?]
 	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
-	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
-	at java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2719) ~[?:?]
-	at jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:299) ~[java.net.http:?]
-	at jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1049) ~[java.net.http:?]
-	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:930) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2673) ~[?:?]
+	at jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:294) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:659) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:553) ~[java.net.http:?]
 	... 5 more
 Caused by: java.nio.channels.UnresolvedAddressException
-	at sun.nio.ch.Net.checkAddress(Net.java:137) ~[?:?]
-	at sun.nio.ch.Net.checkAddress(Net.java:145) ~[?:?]
-	at sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:842) ~[?:?]
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:865) ~[?:?]
-	at jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210) ~[java.net.http:?]
-	at java.security.AccessController.doPrivileged(AccessController.java:571) ~[?:?]
-	at jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212) ~[java.net.http:?]
+	at sun.nio.ch.Net.checkAddress(Net.java:149) ~[?:?]
+	at sun.nio.ch.Net.checkAddress(Net.java:157) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:816) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:839) ~[?:?]
+	at jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183) ~[java.net.http:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:569) ~[?:?]
+	at jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185) ~[java.net.http:?]
 	at jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
-	at jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:527) ~[java.net.http:?]
-	at jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:138) ~[java.net.http:?]
-	at jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:94) ~[java.net.http:?]
-	at jdk.internal.net.http.Exchange.establishExchange(Exchange.java:391) ~[java.net.http:?]
-	at jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:584) ~[java.net.http:?]
-	at jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:428) ~[java.net.http:?]
-	at jdk.internal.net.http.Exchange.responseAsync(Exchange.java:420) ~[java.net.http:?]
-	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413) ~[java.net.http:?]
-	at jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454) ~[java.net.http:?]
+	at jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:443) ~[java.net.http:?]
+	at jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:131) ~[java.net.http:?]
+	at jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:93) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.establishExchange(Exchange.java:349) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:542) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:386) ~[java.net.http:?]
+	at jdk.internal.net.http.Exchange.responseAsync(Exchange.java:378) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:408) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:449) ~[java.net.http:?]
 	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
 	at java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?]
-	at java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372) ~[?:?]
-	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444) ~[java.net.http:?]
-	at jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2340) ~[?:?]
+	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:439) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:341) ~[java.net.http:?]
 	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
-	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
-	at java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2719) ~[?:?]
-	at jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:299) ~[java.net.http:?]
-	at jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1049) ~[java.net.http:?]
-	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:930) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2673) ~[?:?]
+	at jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:294) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:659) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:553) ~[java.net.http:?]
 	... 5 more
-[06Jan2025 21:31:14.825] [main/WARN] [net.minecraftforge.server.loading.ServerModLoader/LOADING]: Mods loaded with 2 warnings
-[06Jan2025 21:31:14.829] [main/WARN] [net.minecraftforge.server.loading.ServerModLoader/LOADING]: modernfix.no_ferritecore
-[06Jan2025 21:31:14.829] [main/WARN] [net.minecraftforge.server.loading.ServerModLoader/LOADING]: modernfix.perf_mod_warning
-[06Jan2025 21:31:14.857] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[06Jan2025 21:31:14.929] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
-chunky (version 1.3.146 -> MISSING)
-Things may not work well.
-[06Jan2025 21:31:15.198] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MILOS/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23117!/assets/.mcassetsroot' uses unexpected schema
-[06Jan2025 21:31:15.198] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MILOS/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23117!/data/.mcassetsroot' uses unexpected schema
-[06Jan2025 21:31:15.256] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:chunky
-[06Jan2025 21:31:17.600] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/pink_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[06Jan2025 21:31:17.604] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/green_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[06Jan2025 21:31:17.610] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
-[06Jan2025 21:31:17.610] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/light_gray_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[06Jan2025 21:31:17.626] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/epic_party_light_bulb: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:epic_party_light_bulb'
-[06Jan2025 21:31:17.628] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/white_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[06Jan2025 21:31:17.642] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:casting recipe (tfmg:casting/amogus) specified a duration. Durations have no impact on this type of recipe.
-[06Jan2025 21:31:17.643] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/yellow_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[06Jan2025 21:31:17.645] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/pink_concrete: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[06Jan2025 21:31:17.659] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/glass_cable_connector: com.google.gson.JsonSyntaxException: Pattern references symbol 'G' but it's not defined in the key
-[06Jan2025 21:31:17.661] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/red_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[06Jan2025 21:31:17.663] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/gray_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[06Jan2025 21:31:17.664] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/orange_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[06Jan2025 21:31:17.664] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:mechanical_crafting/cast_iron_distillation_controller: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:cast_iron_distillation_controller'
-[06Jan2025 21:31:17.665] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
-[06Jan2025 21:31:17.666] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
-[06Jan2025 21:31:17.666] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:industrial_blasting recipe (tfmg:industrial_blasting/steel) specified a duration. Durations have no impact on this type of recipe.
-[06Jan2025 21:31:17.668] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/magenta_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[06Jan2025 21:31:17.675] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
-[06Jan2025 21:31:17.676] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/brown_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[06Jan2025 21:31:17.677] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/light_blue_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[06Jan2025 21:31:17.677] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:casting recipe (tfmg:casting/steel) specified a duration. Durations have no impact on this type of recipe.
-[06Jan2025 21:31:17.681] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
-[06Jan2025 21:31:17.682] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
-[06Jan2025 21:31:17.682] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:fractional_distillation/crude_oil: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfmg:advanced_distillation'
-[06Jan2025 21:31:17.685] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/lime_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[06Jan2025 21:31:17.685] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:coking recipe (tfmg:coking/coal_coke) specified a duration. Durations have no impact on this type of recipe.
-[06Jan2025 21:31:17.686] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/purple_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[06Jan2025 21:31:17.687] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/welding_machine: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:welding_machine'
-[06Jan2025 21:31:17.688] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:fractional_distillation/crude_oil_sus: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfmg:advanced_distillation'
-[06Jan2025 21:31:17.689] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
-[06Jan2025 21:31:17.692] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:mechanical_crafting/pumpjack_hammer_holder: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:pumpjack_hammer_holder'
-[06Jan2025 21:31:17.696] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/blue_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[06Jan2025 21:31:17.700] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/black_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[06Jan2025 21:31:17.702] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/battery: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:battery'
-[06Jan2025 21:31:17.704] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
-[06Jan2025 21:31:17.705] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/cyan_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
-[06Jan2025 21:31:17.705] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
-[06Jan2025 21:31:17.707] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:polarizing recipe (tfmg:polarizing/magnetic_ingot) specified a duration. Durations have no impact on this type of recipe.
-[06Jan2025 21:31:17.710] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/cast_iron_distillation_output: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:cast_iron_distillation_output'
-[06Jan2025 21:31:17.711] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
-[06Jan2025 21:31:17.721] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 30 recipes
-[06Jan2025 21:31:17.840] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3005 advancements
-[06Jan2025 21:31:17.949] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[06Jan2025 21:31:17.949] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[06Jan2025 21:31:17.949] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[06Jan2025 21:31:17.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[06Jan2025 21:31:18.069] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[06Jan2025 21:31:18.094] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[06Jan2025 21:31:18.165] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[06Jan2025 21:31:18.166] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[06Jan2025 21:31:18.166] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[06Jan2025 21:31:18.166] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[06Jan2025 21:31:18.209] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[06Jan2025 21:31:18.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[06Jan2025 21:31:20.176] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jan2025 21:31:20.177] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jan2025 21:31:20.177] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jan2025 21:31:20.177] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jan2025 21:31:20.825] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2179 ms
-[06Jan2025 21:31:20.826] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.649s)! For help, type "help"
-[06Jan2025 21:31:20.858] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[06Jan2025 21:31:20.859] [Server thread/INFO] [com.drmangotea.tfmg.CreateTFMG/]: YEEEHAAW
-[06Jan2025 21:31:20.877] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[06Jan2025 21:31:20.892] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host is 'sale-suicide.gl.at.ply.gg'
-[06Jan2025 21:31:20.892] [Server thread/WARN] [ModernFix/]: Dedicated server took 24.874 seconds to load
-[06Jan2025 21:31:20.893] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 3665
-[06Jan2025 21:36:44.568] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Wimiloz539[/127.94.151.112:57241] logged in with entity id 87 at (501.30000001192093, 11.0, 476.53791875884303)
-[06Jan2025 21:36:44.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wimiloz539 joined the game
-[06Jan2025 21:36:46.608] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Wimiloz539 (18)
-[06Jan2025 21:36:46.611] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Wimiloz539
-[06Jan2025 21:36:56.241] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1326516b-4158-3732-b37a-e50d60de33ff
-[06Jan2025 21:36:57.258] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1326516b-4158-3732-b37a-e50d60de33ff
-[06Jan2025 21:36:57.261] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Wimiloz539 (1326516b-4158-3732-b37a-e50d60de33ff) successfully connected to voice chat
-[06Jan2025 21:41:57.501] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Wimiloz539 lost connection: Disconnected
-[06Jan2025 21:41:57.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wimiloz539 left the game
-[06Jan2025 21:41:57.506] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Wimiloz539
-[06Jan2025 21:45:09.046] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Wimiloz539[/127.94.151.112:50447] logged in with entity id 1117 at (425.08658935079666, 21.0, 501.88655731322206)
-[06Jan2025 21:45:09.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wimiloz539 joined the game
-[06Jan2025 21:45:10.648] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Wimiloz539 (18)
-[06Jan2025 21:45:10.649] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Wimiloz539
-[06Jan2025 21:45:20.634] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1326516b-4158-3732-b37a-e50d60de33ff
-[06Jan2025 21:45:21.669] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1326516b-4158-3732-b37a-e50d60de33ff
-[06Jan2025 21:45:21.670] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Wimiloz539 (1326516b-4158-3732-b37a-e50d60de33ff) successfully connected to voice chat
-[06Jan2025 21:45:40.251] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Wimiloz539 lost connection: Disconnected
-[06Jan2025 21:45:40.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wimiloz539 left the game
-[06Jan2025 21:45:40.252] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Wimiloz539
-[06Jan2025 21:49:51.216] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Wimiloz539[/127.94.151.112:44861] logged in with entity id 1358 at (422.5798864118381, 22.0, 501.5902916115653)
-[06Jan2025 21:49:51.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wimiloz539 joined the game
-[06Jan2025 21:49:52.864] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Wimiloz539 (18)
-[06Jan2025 21:49:52.866] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Wimiloz539
-[06Jan2025 21:50:02.478] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1326516b-4158-3732-b37a-e50d60de33ff
-[06Jan2025 21:50:03.485] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1326516b-4158-3732-b37a-e50d60de33ff
-[06Jan2025 21:50:03.486] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Wimiloz539 (1326516b-4158-3732-b37a-e50d60de33ff) successfully connected to voice chat
+[19Jan2025 17:07:43.664] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MILOS/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23117!/assets/.mcassetsroot' uses unexpected schema
+[19Jan2025 17:07:43.665] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MILOS/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23117!/data/.mcassetsroot' uses unexpected schema
+[19Jan2025 17:07:46.112] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/pink_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[19Jan2025 17:07:46.114] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/green_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[19Jan2025 17:07:46.119] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[19Jan2025 17:07:46.120] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/light_gray_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[19Jan2025 17:07:46.132] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/epic_party_light_bulb: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:epic_party_light_bulb'
+[19Jan2025 17:07:46.134] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/white_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[19Jan2025 17:07:46.137] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:casting recipe (tfmg:casting/amogus) specified a duration. Durations have no impact on this type of recipe.
+[19Jan2025 17:07:46.138] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/yellow_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[19Jan2025 17:07:46.141] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/pink_concrete: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[19Jan2025 17:07:46.154] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/glass_cable_connector: com.google.gson.JsonSyntaxException: Pattern references symbol 'G' but it's not defined in the key
+[19Jan2025 17:07:46.157] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/red_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[19Jan2025 17:07:46.160] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/gray_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[19Jan2025 17:07:46.162] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/orange_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[19Jan2025 17:07:46.162] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:mechanical_crafting/cast_iron_distillation_controller: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:cast_iron_distillation_controller'
+[19Jan2025 17:07:46.164] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
+[19Jan2025 17:07:46.164] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
+[19Jan2025 17:07:46.165] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:industrial_blasting recipe (tfmg:industrial_blasting/steel) specified a duration. Durations have no impact on this type of recipe.
+[19Jan2025 17:07:46.167] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/magenta_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[19Jan2025 17:07:46.177] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
+[19Jan2025 17:07:46.177] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/brown_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[19Jan2025 17:07:46.179] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/light_blue_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[19Jan2025 17:07:46.179] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:casting recipe (tfmg:casting/steel) specified a duration. Durations have no impact on this type of recipe.
+[19Jan2025 17:07:46.184] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
+[19Jan2025 17:07:46.186] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
+[19Jan2025 17:07:46.187] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:fractional_distillation/crude_oil: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfmg:advanced_distillation'
+[19Jan2025 17:07:46.190] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/lime_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[19Jan2025 17:07:46.191] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:coking recipe (tfmg:coking/coal_coke) specified a duration. Durations have no impact on this type of recipe.
+[19Jan2025 17:07:46.192] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/purple_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[19Jan2025 17:07:46.193] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/welding_machine: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:welding_machine'
+[19Jan2025 17:07:46.194] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:fractional_distillation/crude_oil_sus: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfmg:advanced_distillation'
+[19Jan2025 17:07:46.195] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[19Jan2025 17:07:46.201] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:mechanical_crafting/pumpjack_hammer_holder: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:pumpjack_hammer_holder'
+[19Jan2025 17:07:46.205] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/blue_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[19Jan2025 17:07:46.210] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/black_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[19Jan2025 17:07:46.213] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/battery: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:battery'
+[19Jan2025 17:07:46.215] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
+[19Jan2025 17:07:46.216] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/cyan_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[19Jan2025 17:07:46.216] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
+[19Jan2025 17:07:46.218] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:polarizing recipe (tfmg:polarizing/magnetic_ingot) specified a duration. Durations have no impact on this type of recipe.
+[19Jan2025 17:07:46.220] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/cast_iron_distillation_output: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:cast_iron_distillation_output'
+[19Jan2025 17:07:46.221] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[19Jan2025 17:07:46.231] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 30 recipes
+[19Jan2025 17:07:46.353] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3005 advancements
+[19Jan2025 17:07:46.473] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[19Jan2025 17:07:46.474] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[19Jan2025 17:07:46.475] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[19Jan2025 17:07:46.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[19Jan2025 17:07:46.656] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[19Jan2025 17:07:46.685] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[19Jan2025 17:07:46.762] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19Jan2025 17:07:46.763] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[19Jan2025 17:07:46.763] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19Jan2025 17:07:46.764] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[19Jan2025 17:07:46.810] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[19Jan2025 17:07:47.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[19Jan2025 17:07:48.930] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Jan2025 17:07:48.931] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Jan2025 17:07:48.932] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Jan2025 17:07:48.932] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Jan2025 17:07:49.260] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[19Jan2025 17:07:49.737] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2478 ms
+[19Jan2025 17:07:49.737] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.962s)! For help, type "help"
+[19Jan2025 17:07:49.772] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[19Jan2025 17:07:49.773] [Server thread/INFO] [com.drmangotea.tfmg.CreateTFMG/]: YEEEHAAW
+[19Jan2025 17:07:49.792] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[19Jan2025 17:07:49.808] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host is 'sale-suicide.gl.at.ply.gg'
+[19Jan2025 17:07:49.808] [Server thread/WARN] [ModernFix/]: Dedicated server took 24.804 seconds to load
+[19Jan2025 17:07:49.820] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 3665
+[19Jan2025 17:10:24.905] [Netty Epoll Server IO #2/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [createaddition:main,tfmg:main,create:main] rejected vanilla connections
+[19Jan2025 17:10:24.906] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: [/127.94.151.112:57309] Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
+[19Jan2025 17:13:33.492] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Wimiloz539[/127.94.151.112:48297] logged in with entity id 88 at (508.69999998807907, 14.0, 471.17848848106485)
+[19Jan2025 17:13:33.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wimiloz539 joined the game
+[19Jan2025 17:13:35.229] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Wimiloz539 (18)
+[19Jan2025 17:13:35.231] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Wimiloz539
+[19Jan2025 17:13:50.771] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 1326516b-4158-3732-b37a-e50d60de33ff
+[19Jan2025 17:13:51.833] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 1326516b-4158-3732-b37a-e50d60de33ff
+[19Jan2025 17:13:51.837] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Wimiloz539 (1326516b-4158-3732-b37a-e50d60de33ff) successfully connected to voice chat
+[19Jan2025 17:14:43.177] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@b2136f1[id=<null>,name=Giova_rt12,properties={},legacy=false] (/127.128.236.108:35867) lost connection: Disconnected
+[19Jan2025 17:14:52.137] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Giova_rt12[/127.128.236.108:41025] logged in with entity id 418 at (476.5329023471869, -45.0, 528.3552975282435)
+[19Jan2025 17:14:52.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Giova_rt12 joined the game
+[19Jan2025 17:14:54.653] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Giova_rt12 (18)
+[19Jan2025 17:14:54.654] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Giova_rt12
+[19Jan2025 17:15:08.218] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player ce45f4cd-4fc0-3e1e-a8eb-69b13aa0733a
+[19Jan2025 17:15:09.222] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player ce45f4cd-4fc0-3e1e-a8eb-69b13aa0733a
+[19Jan2025 17:15:09.223] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Giova_rt12 (ce45f4cd-4fc0-3e1e-a8eb-69b13aa0733a) successfully connected to voice chat
+[19Jan2025 17:15:42.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wimiloz539 was slain by Enderman
+[19Jan2025 17:16:03.668] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Wimiloz539 lost connection: Disconnected
+[19Jan2025 17:16:03.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wimiloz539 left the game
+[19Jan2025 17:16:03.671] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Wimiloz539
+[19Jan2025 17:16:03.727] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[19Jan2025 17:16:29.067] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3a3ba00b[id=<null>,name=Wimiloz539,properties={},legacy=false] (/127.94.151.112:50285) lost connection: Disconnected
+[19Jan2025 17:16:36.684] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Wimiloz539[/127.94.151.112:44953] logged in with entity id 805 at (498.88425180452356, 15.024424088213681, 477.0813954828511)
+[19Jan2025 17:16:36.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wimiloz539 joined the game
+[19Jan2025 17:16:37.236] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Wimiloz539 (18)
+[19Jan2025 17:16:37.237] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Wimiloz539
+[19Jan2025 17:17:06.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Giova_rt12> unite
+[19Jan2025 17:17:06.770] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Wimiloz539 lost connection: Timed out
+[19Jan2025 17:17:06.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Wimiloz539 left the game
+[19Jan2025 17:17:06.771] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Wimiloz539
